@@ -1,0 +1,261 @@
+<div data-role="header" data-position="fixed">
+    <a id="back" href="#" data-icon="back">Back</a>
+    <h4>Step 2 &amp; 3</h4>
+    <a href="#" data-icon="info" data-role="button" class="ui-btn-right" id="about">How to use this app</a>
+</div>
+<div data-role="content">
+<div class="row-fluid">
+    <div class="span6">
+        <div id="zoomwrapper"
+             style="position:relative;border:1px solid #cdcdcd;overflow:hidden;height:600px;margin:0px 0px;">
+            <div class="zoomProps" id="zoom">
+                <img id="cameraPic" src="" style="position:absolute;"/>
+
+                <div style="position:absolute;top:0;right:0;">
+                    <div id="plus" style="height:40px;width:40px;" class="ui-icon ui-icon-plus">&nbsp;</div>
+                </div>
+                <div style="position:absolute;bottom:0;right:0;">
+                    <div id="minus" style="height:40px;width:40px;" class="ui-icon ui-icon-minus">&nbsp;</div>
+                </div>
+                <div style="position:absolute;bottom:0;left:0;">
+                    <div id="right" style="height:40px;width:40px;" class="ui-icon ui-icon-forward">&nbsp;</div>
+                </div>
+                <div style="position:absolute;top:0;left:0;">
+                    <div id="left" style="height:40px;width:40px;" class="ui-icon ui-icon-back">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <h4 id="location" style="text-align:center;"></h4>
+    </div>
+    <div class="span6">
+        <div data-role="collapsible-set" id="key">
+            <div data-role="collapsible" id="thorax">
+                <h3>Thorax</h3>
+                <ul class="thumbnails">
+                    <li id="thorax1">
+                        <a href="#" class="thumbnail"><img src="img/keys/thorax1.png" style="width: 60px;"/></a>
+                    </li>
+                    <li id="thorax2">
+                        <a href="#" class="thumbnail"><img src="img/keys/thorax2.png" style="width: 60px;"/></a>
+                    </li>
+                    <li id="thorax3">
+                        <a href="#" class="thumbnail"><img src="img/keys/thorax3.png" style="width: 60px;"/></a>
+                    </li>
+                    <li id="thorax4">
+                        <a href="#" class="thumbnail"><img src="img/keys/thorax4.png" style="width: 60px;"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="abdomen">
+                <h3>Abdomen</h3>
+                <ul class="thumbnails">
+                    <li id="abdomen1">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen1.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen2">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen2.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen3">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen3.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen4">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen4.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen5">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen5.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen6">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen6.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen7">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen7.png" style="width: 40px;"/></a>
+                    </li>
+                    <li id="abdomen8">
+                        <a href="#" class="thumbnail"><img src="img/keys/abdomen8.png" style="width: 40px;"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="antenna">
+                <h3>Antenna</h3>
+                <ul class="thumbnails">
+                    <li id="short_elbowed"><a href="#" class="thumbnail"><img src="img/keys/antennae_short.jpg"
+                                                                              style="width: 200px;"/></a></li>
+                    <li id="long_curved"><a href="#" class="thumbnail"><img src="img/keys/antennae_long.jpg"
+                                                                            style="width: 200px;"/></a>
+                    <li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="face">
+                <h3>Face</h3>
+                <ul class="thumbnails">
+                    <li id="face1"><a href="#" class="thumbnail"><img src="img/keys/long1.png"
+                                                                      style="width: 100px;"/></a></li>
+                    <li id="face2"><a href="#" class="thumbnail"><img src="img/keys/long2.png"
+                                                                      style="width: 100px;"/></a></li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="wings">
+                <h3>Wings</h3>
+                <ul class="thumbnails">
+                    <li id="clear"><span class="thumbnail">Wings are noticeably clearer</span></li>
+                    <li id="dark"><span class="thumbnail">Wings are noticeably darker</span></li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="pollen">
+                <h3>Pollen basket</h3>
+                <ul class="thumbnails">
+                    <li id="present"><a href="#" class="thumbnail"><img src="img/keys/pollen_basket_present.jpg" style="width: 100px;"/></a>
+                    </li>
+                    <li id="absent"><a href="#" class="thumbnail"><img src="img/keys/pollen_basket_absent.jpg" style="width: 100px;"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="collapsible" id="tail">
+                <h3>Tail</h3>
+                <ul class="thumbnails">
+                    <li id="pointed"><span class="thumbnail">Last abdominal segment very pointed</span></li>
+                    <li id="rounded"><span class="thumbnail">Last abdominal segment rounded or squared-off</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row-fluid" id="species">
+    <div class="span12">
+        <div class="row">
+            <div class="span12">
+                <h2>22 species of bumblebees <span id="selected"></span></h2>
+            </div>
+        </div>
+        <h3>Common bumblebees</h3>
+        <ul class="thumbnails">
+            <li class="span2">
+                <a href="#" class="thumbnail" title="hortorum">
+                    <img src="img/references/thumb/bombus_hortorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="lapidarius">
+                    <img src="img/references/thumb/bombus_lapidarius.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="lucorum">
+                    <img src="img/references/thumb/bombus_lucorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="pascuorum">
+                    <img src="img/references/thumb/bombus_pascuorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="pratorum">
+                    <img src="img/references/thumb/bombus_pratorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="terrestris">
+                    <img src="img/references/thumb/bombus_terrestris.jpg"/>
+                </a>
+            </li>
+        </ul>
+        <h3>Less common bumblebees</h3>
+        <ul class="thumbnails">
+            <li class="span2">
+                <a href="#" class="thumbnail" title="hypnorum">
+                    <img src="img/references/thumb/bombus_hypnorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="jonellus">
+                    <img src="img/references/thumb/bombus_jonellus.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="monticola">
+                    <img src="img/references/thumb/bombus_monticola.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="soroeensis">
+                    <img src="img/references/thumb/bombus_soroeensis.jpg"/>
+                </a>
+            </li>
+        </ul>
+        <h3>Rare bumblebees</h3>
+        <ul class="thumbnails">
+            <li class="span2">
+                <a href="#" class="thumbnail" title="humilis">
+                    <img src="img/references/thumb/bombus_humilis.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="muscorum">
+                    <img src="img/references/thumb/bombus_muscorum.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="ruderarius">
+                    <img src="img/references/thumb/bombus_ruderarius.png"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="ruderatus">
+                    <img src="img/references/thumb/bombus_ruderatus.jpg"/>
+                </a>
+            </li>
+        </ul>
+        <h3>Very rare bumblebees</h3>
+        <ul class="thumbnails">
+            <li class="span2">
+                <a href="#" class="thumbnail" title="distinguendus">
+                    <img src="img/references/thumb/bombus_distinguendus.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="sylvarum">
+                    <img src="img/references/thumb/bombus_sylvarum.jpg"/>
+                </a>
+            </li>
+        </ul>
+        <h3>Cuckoo bumblebees</h3>
+        <ul class="thumbnails">
+            <li class="span2">
+                <a href="#" class="thumbnail" title="barbutellus">
+                    <img src="img/references/thumb/bombus_barbutellus.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="bohemicus">
+                    <img src="img/references/thumb/bombus_bohemicus.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="campestris">
+                    <img src="img/references/thumb/bombus_campestris.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="rupestris">
+                    <img src="img/references/thumb/bombus_rupestris.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="subterraneus">
+                    <img src="img/references/thumb/bombus_subterraneus.jpg"/>
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail" title="vestalis">
+                    <img src="img/references/thumb/bombus_vestalis.jpg"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<button id="publish_button">Publish to your wall</button>
+<button id="sendsms_button">SendSMS to your friends</button>
+
+</div>

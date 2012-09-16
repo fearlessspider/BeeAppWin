@@ -1,0 +1,32 @@
+<div data-role="header" data-position="fixed">
+    <a id="back" href="#" data-icon="back">Back</a>
+    <h4>Step 5 - Choose location</h4>
+    <a href="#" data-icon="info" data-role="button" class="ui-btn-right" id="about">How to use this app</a>
+</div>
+
+
+<div data-role="content">
+    <div class="row-fluid">
+        <div class="span6">
+            <div id="gmap"></div>
+            Address:<input type="text" name="address" id="address" placeholder="Dundee, UK" />
+            <button id="changeLocation">Change location</button>
+        </div>
+        <div class="span6">
+            <label for="place">Place:</label>
+            <select name="place" id="place">
+                <option value="forest">Forest</option>
+                <option value="farmland">Farmland</option>
+                <option value="garden">Garden</option>
+                <option value="hedgerows">Hedgerows</option>
+                <option value="mountains">Mountains</option>
+            </select>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="5"></textarea>
+            <button id="send" class="submit">Submit Identification</button>
+
+            <button id="publish_button" >Publish to your wall</button>
+
+        </div>
+    </div>
+</div>
